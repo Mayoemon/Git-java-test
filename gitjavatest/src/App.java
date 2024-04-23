@@ -1,6 +1,10 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Techan t = new Techan(50);
-        t.printPageLearned();
+        for(int i=0;i<50;i++){
+            Techan t = new Techan(i);
+            t.printPageLearned();
+        }
+        // Techan t = new Techan(50);
+        // t.printPageLearned();
     }
 }
